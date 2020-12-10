@@ -8,8 +8,11 @@ public class BGMove : MonoBehaviour
     public float speed = 0.1f;
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         transform.position = new Vector3(Target.position.x * speed, Target.position.y * speed, transform.position.z);
+    }
+    void Update()
+    {
     }
 }
