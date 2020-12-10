@@ -64,6 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\02. Scripts\BGMove.cs" />
+    <Compile Include="Assets\02. Scripts\Block\BounceBlock.cs" />
+    <Compile Include="Assets\02. Scripts\Block\DestoryBlock.cs" />
+    <Compile Include="Assets\02. Scripts\Block\MoveBlock.cs" />
     <Compile Include="Assets\02. Scripts\CamMove.cs" />
     <Compile Include="Assets\02. Scripts\Player\Player.cs" />
     <Compile Include="Assets\02. Scripts\Player\PlayerFoot.cs" />

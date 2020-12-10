@@ -70,7 +70,7 @@ public class Player : MonoBehaviour
     {
         Boom.SetActive(false);
         GameObject BoomDies = Instantiate(BoomDie);
-        Destroy(BoomDies, 0.3f);
+        Destroy(BoomDies, 0.4f);
         rig.velocity = (transform.position - Boom.transform.position).normalized * BoomPower;
         BoomDies.transform.position = new Vector3(Boom.transform.position.x, Boom.transform.position.y, -1);
     }
@@ -82,7 +82,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            WakeupDelayTime = 2;
+            WakeupDelayTime = .5f;
         }
 
         if (WakeupDelayTime < 0)

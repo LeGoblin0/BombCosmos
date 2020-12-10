@@ -9,7 +9,7 @@ public class PlayerFoot : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
-            Debug.Log(1);
+            //Debug.Log(1);
             ground++;
         }
     }
@@ -25,3 +25,4 @@ public class PlayerFoot : MonoBehaviour
         return ground > 0 ? true : false;
     }
 }
+
