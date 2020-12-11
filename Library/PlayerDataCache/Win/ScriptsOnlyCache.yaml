@@ -35,6 +35,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
     spine-unity-editor.dll:
     - Spine.Unity.Editor.SpinePreferences
@@ -92,6 +93,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12910}
     - Class: 114
       Script: {instanceID: 13200}
+    - Class: 114
+      Script: {instanceID: 13522}
     - Class: 114
       Script: {instanceID: 14046}
     - Class: 114
@@ -795,7 +798,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 027eb726010adbacf9b7320e7dbe2a50
+      Hash: 98c36ed5f7df88ad86e945b2a3f8f146
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player

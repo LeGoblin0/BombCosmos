@@ -20,14 +20,14 @@ public class MoveBlock : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform == MovePoint[0] || collision.transform == MovePoint[1])
+        if (collision.transform == MovePoint[0] || collision.transform == MovePoint[1] || collision.gameObject.tag == "Player")
         {
             GoBack = !GoBack;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform == MovePoint[0] || collision.transform == MovePoint[1])
+        if (collision.transform == MovePoint[0] || collision.transform == MovePoint[1] || collision.gameObject.tag == "Player")
         {
             GoBack = !GoBack;
         }
